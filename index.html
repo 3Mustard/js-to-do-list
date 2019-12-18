@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flatiron Task Lister</title>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="main-content">
+    <h1>Task Lister Lite™️</h1>
+
+      <label for="taskInput"><span id="taskErr"></span>Task description:</label>
+      <input type="text" id="taskInput" name="taskInput" placeholder="description">
+      <input id="taskButton" type="submit" value="Create New Task">
+
+
+    <div id="taskList">
+      <h2>My Todos</h2>
+      <ul id="tasks">
+      </ul>
+    </div>
+
+    <script src="./src/index.js"></script>
+  </div>
+
+</body>
+</html>
